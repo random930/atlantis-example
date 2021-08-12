@@ -53,3 +53,6 @@ resource "aws_alb" "disabled" {
 
   drop_invalid_header_fields = false
 }
+
+resource "null_resource" "example" {
+}
